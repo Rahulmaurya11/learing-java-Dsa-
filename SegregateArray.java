@@ -33,5 +33,4 @@ public class SegregateArray {
         System.out.println(newarr);
     }
 
-
 }

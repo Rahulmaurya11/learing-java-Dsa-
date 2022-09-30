@@ -3,7 +3,7 @@ public class CyclicPractice {
  //Given an unsorted array Arr of size N of positive integers. One number 'A' from set
  // {1, 2, …N} is missing and one number 'B' occurs twice in array. Find these two numbers.
     public static void main(String[] args) {
-        int[] arr = {2, 2};
+        int[] arr = {2,2,3,6,5,4};
         Cyclesort(arr);
         boolean remis;
         int repeating = findmissing(arr, true);
